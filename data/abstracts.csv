@@ -1,0 +1,151 @@
+text,label
+We propose a novel deep reinforcement learning framework for autonomous agents combining policy gradient methods with model-based planning. Our approach achieves state-of-the-art performance on the MuJoCo benchmark suite.,AI / Machine Learning
+This paper introduces a transformer-based language model pre-trained on 1.5 trillion tokens. Fine-tuning experiments demonstrate significant improvements on GLUE and SuperGLUE benchmarks.,AI / Machine Learning
+We present a meta-learning algorithm enabling few-shot adaptation across diverse task distributions. The proposed MAML variant converges faster and generalises better than prior approaches.,AI / Machine Learning
+A novel generative adversarial network architecture is proposed for high-fidelity image synthesis using spectral normalisation and adaptive instance normalisation.,AI / Machine Learning
+"We introduce a self-supervised contrastive learning framework that learns robust visual representations without labelled data, outperforming supervised baselines on linear evaluation protocols.",AI / Machine Learning
+"This work explores neural architecture search using evolutionary algorithms combined with gradient-based optimisation, discovering architectures matching human-designed networks at lower cost.",AI / Machine Learning
+We propose a federated learning scheme with differential privacy guarantees for training ML models on distributed data without sharing raw samples.,AI / Machine Learning
+"A knowledge distillation technique transfers dark knowledge from ensemble teachers to a compact student network, achieving 5× compression with less than 1 percent accuracy drop.",AI / Machine Learning
+We study the optimisation landscape of deep neural networks and prove spurious local minima are exponentially rare under mild assumptions on data distribution and network width.,AI / Machine Learning
+"This paper proposes a linear-complexity attention mechanism enabling transformers to handle documents of 100,000 tokens without approximation.",AI / Machine Learning
+"Bayesian deep learning with uncertainty quantification is applied to medical diagnosis, providing calibrated confidence scores to support clinical decision-making.",AI / Machine Learning
+We introduce a continual learning algorithm that mitigates catastrophic forgetting via elastic weight consolidation extended with a generative replay buffer.,AI / Machine Learning
+Graph neural networks are extended with hyperbolic geometry to better capture hierarchical relationships in citation networks and biological interaction graphs.,AI / Machine Learning
+We propose a causal inference framework integrated with deep learning to disentangle spurious correlations from true causal relationships in observational datasets.,AI / Machine Learning
+A new optimiser combining adaptive learning rates with momentum correction demonstrates faster convergence than Adam across classification and language benchmarks.,AI / Machine Learning
+"We present a hierarchical variational autoencoder that learns disentangled latent representations of structured data, enabling controllable generation and interpolation.",AI / Machine Learning
+"A neural machine translation model is enhanced with cross-lingual pre-training on 100 languages, achieving zero-shot transfer on low-resource language pairs.",AI / Machine Learning
+We study reward shaping in sparse-reward reinforcement learning and propose an automated curriculum that progressively increases task difficulty based on agent competence.,AI / Machine Learning
+Mixture-of-experts language models are scaled to one trillion parameters using a learned routing mechanism that achieves balanced expert utilisation across diverse inputs.,AI / Machine Learning
+"We introduce a probabilistic programming language with automatic differentiation support, enabling variational inference in complex hierarchical Bayesian models.",AI / Machine Learning
+"Active learning is combined with Gaussian process regression to minimise labelling effort in molecular property prediction, reducing annotation cost by 60 percent.",AI / Machine Learning
+We propose a self-play training protocol for dialogue agents that improves negotiation strategy without human interaction data.,AI / Machine Learning
+A neural theorem prover is trained on formal mathematical proofs and learns to generate novel proof steps for undergraduate-level algebra problems.,AI / Machine Learning
+We present an energy-based model for few-shot image generation that scores samples using a learned compatibility function between images and class prototypes.,AI / Machine Learning
+"Prompt engineering strategies are systematically benchmarked across seven large language models, revealing that chain-of-thought prompting consistently improves arithmetic reasoning.",AI / Machine Learning
+"We introduce a multimodal foundation model pre-trained on text, images, and audio that achieves competitive performance on each modality without task-specific fine-tuning.",AI / Machine Learning
+"A recurrent neural network is trained on protein sequence data to predict secondary structure, achieving state-of-the-art results on CASP benchmarks.",AI / Machine Learning
+We study neural scaling laws for language models and derive a compute-optimal training recipe that maximises performance under a fixed computational budget.,AI / Machine Learning
+A differentiable physics engine is embedded within a deep learning pipeline for model-based robot manipulation planning without human-engineered dynamics models.,AI / Machine Learning
+"We propose a sparse attention transformer that routes tokens to specialised heads based on content, reducing perplexity on long-document language modelling tasks.",AI / Machine Learning
+We propose a real-time object detection network using depthwise separable convolutions and feature pyramid networks running at 120 FPS on embedded hardware.,Computer Vision
+A 3D point cloud segmentation method based on PointNet++ with hierarchical feature aggregation achieves state-of-the-art results on ScanNet and ShapeNet.,Computer Vision
+This paper presents a vision transformer architecture for semantic segmentation enriched with spatial positional encodings learned via sinusoidal functions.,Computer Vision
+We introduce a contrastive self-supervised method for medical image analysis leveraging augmentation policies tailored to radiology images.,Computer Vision
+"A neural implicit surface representation is proposed for 3D reconstruction from multi-view stereo images, outperforming explicit mesh-based methods.",Computer Vision
+"We propose a novel optical flow estimation network using deformable convolutions and cost volume aggregation, achieving leading results on KITTI and Sintel.",Computer Vision
+This work addresses video understanding by combining temporal attention with 2D spatial convolutions for action recognition in long video clips.,Computer Vision
+We present a face super-resolution network using channel attention and residual dense blocks to recover fine facial details from 4× downsampled inputs.,Computer Vision
+A domain adaptation framework for autonomous driving perception uses adversarial training to bridge the sim-to-real gap in object detection.,Computer Vision
+We introduce a medical image registration algorithm based on diffeomorphic deformations parameterised by a convolutional neural network.,Computer Vision
+"Instance segmentation is improved via a mask transformer that attends to object queries in parallel, eliminating sequential RNN-based approaches.",Computer Vision
+"A diffusion model is applied to image inpainting, generating coherent textures conditioned on surrounding context and semantic labels.",Computer Vision
+We propose a zero-shot object detection method by aligning visual region features with textual descriptions from a large language model.,Computer Vision
+Depth estimation from a single RGB image is improved by incorporating surface normal constraints and uncertainty-aware training losses.,Computer Vision
+"Event camera data is processed with a spiking neural network for high-speed motion estimation, reducing latency to under 1 ms.",Computer Vision
+We present a scene graph generation model that jointly predicts objects and their pairwise visual relationships in a single forward pass.,Computer Vision
+A panoptic segmentation architecture unifies semantic and instance segmentation under a shared pixel-wise prediction head trained end-to-end.,Computer Vision
+We propose a neural radiance field variant that achieves real-time rendering of dynamic scenes by factorising appearance and motion.,Computer Vision
+Stereo matching accuracy is improved using a recurrent cost volume filtering network that propagates confidence estimates across disparity levels.,Computer Vision
+We introduce a few-shot image classification model that adapts to new visual categories from five examples using a learned nearest-centroid classifier.,Computer Vision
+A lane detection network for autonomous driving uses polynomial curve fitting combined with a transformer decoder to predict structured lane representations.,Computer Vision
+"We present a crowd counting model using multi-scale dilated convolutions and density map regression, achieving state-of-the-art results on ShanghaiTech.",Computer Vision
+A human pose estimation framework predicts 3D joint positions from monocular video using a temporal graph convolutional network.,Computer Vision
+"We introduce a universal image restoration network that handles denoising, deblurring, and super-resolution with a single set of shared weights.",Computer Vision
+Aerial image segmentation is improved with a context aggregation module that captures both local texture and global spatial layout information.,Computer Vision
+We propose a cross-modal image retrieval system aligning visual features with natural language queries via a shared embedding space.,Computer Vision
+A generative model for 3D shape completion takes partial point clouds as input and predicts missing regions using a variational decoder.,Computer Vision
+We present a video object segmentation method that propagates segmentation masks across frames using learned optical flow and memory attention.,Computer Vision
+Licence plate recognition in adverse weather conditions is improved using domain randomisation during training and a deblurring pre-processing module.,Computer Vision
+We introduce a retinal disease screening system combining fundus image classification with saliency map generation to highlight diagnostic regions.,Computer Vision
+"We develop a predictive model for customer churn in telecommunications using gradient-boosted trees and SHAP-based feature importance, achieving 91 percent AUC.",Data Science / Analytics
+This paper proposes a time-series anomaly detection method combining LSTM autoencoders with statistical process control charts for industrial IoT sensors.,Data Science / Analytics
+A data pipeline architecture for real-time ETL processing of social media streams is presented using Apache Kafka and Spark Structured Streaming at petabyte scale.,Data Science / Analytics
+We introduce a causal impact estimation technique for A/B testing that corrects for network effects and user interference in large-scale online experiments.,Data Science / Analytics
+Survival analysis models are applied to predict equipment failure integrating sensor data with maintenance logs via a Cox proportional hazards model.,Data Science / Analytics
+We propose a recommendation system that combines collaborative filtering with graph-based propagation to capture higher-order user-item relationships.,Data Science / Analytics
+"This work presents a framework for automated feature engineering using genetic programming, discovering non-linear interaction features that improve predictions.",Data Science / Analytics
+"A probabilistic forecasting method outputs full predictive distributions for energy demand, enabling better power grid management under uncertainty.",Data Science / Analytics
+We study data leakage patterns in public ML benchmarks and propose a pipeline audit framework that detects temporal and identifier-based leakage.,Data Science / Analytics
+A multi-task learning approach to fraud detection jointly optimises transaction classification and merchant risk scoring at low false positive rates.,Data Science / Analytics
+We present an explainability framework for black-box tabular models using prototype examples and counterfactual explanations aligned with domain constraints.,Data Science / Analytics
+"Natural language processing is applied to unstructured electronic health records for clinical concept extraction, achieving 89 percent F1 on medication mentions.",Data Science / Analytics
+We introduce a clustering algorithm for high-dimensional genomics data leveraging sparse subspace assumptions to robustly identify cancer subtypes.,Data Science / Analytics
+A missing data imputation method based on variational autoencoders outperforms MICE on health survey datasets with over 40 percent missingness.,Data Science / Analytics
+We build a social network analysis pipeline to detect coordinated inauthentic behaviour on Twitter using graph motif patterns and temporal activity bursts.,Data Science / Analytics
+"A streaming data architecture for real-time sports analytics is presented, ingesting event telemetry and producing in-game win probability estimates with sub-second latency.",Data Science / Analytics
+We propose a hierarchical Bayesian model for multi-level marketing attribution that accounts for cross-channel spillover and temporal decay.,Data Science / Analytics
+"Demand forecasting for retail is improved using external data sources including weather, events, and social sentiment fused via a multi-modal ensemble.",Data Science / Analytics
+We introduce a graph-based supply chain risk model that propagates disruption probabilities through supplier networks to assess second-tier exposure.,Data Science / Analytics
+"A semi-supervised learning framework is applied to document classification in legal discovery, reducing manual review effort by 73 percent.",Data Science / Analytics
+We present a real-time credit scoring pipeline that processes streaming transaction events and retrains daily using an online gradient boosting algorithm.,Data Science / Analytics
+Clickstream data from e-commerce users is modelled as a Markov chain to predict purchase intent and trigger personalised interventions.,Data Science / Analytics
+We propose a bootstrap aggregation strategy for spatial interpolation of air quality sensor data across urban areas with sparse monitoring coverage.,Data Science / Analytics
+"An automated machine learning toolkit is evaluated on 100 OpenML datasets, demonstrating competitive accuracy against hand-crafted pipelines within 10 minutes.",Data Science / Analytics
+We study Simpson's paradox in observational health data and propose a stratified analysis workflow that prevents misleading conclusions from aggregated statistics.,Data Science / Analytics
+A transfer learning approach adapts pre-trained tabular models from financial services to insurance risk scoring with minimal labelled data.,Data Science / Analytics
+We present a real-options framework for data centre capacity planning that models demand uncertainty using Monte Carlo simulation and dynamic programming.,Data Science / Analytics
+Topic modelling with latent Dirichlet allocation is applied to customer support tickets to surface recurring pain points and prioritise product improvements.,Data Science / Analytics
+We introduce a privacy-preserving analytics framework using local differential privacy that enables population-level statistics without collecting individual records.,Data Science / Analytics
+"A dashboard system for hospital operational intelligence aggregates 15 data sources in real time, reducing ICU bed management decision latency by 40 percent.",Data Science / Analytics
+We present a deep learning-based intrusion detection system for IoT networks that identifies zero-day attacks by modelling normal traffic with a variational autoencoder.,Cybersecurity
+"A transformer model fine-tuned on malware assembly code classifies malware families with 97 percent accuracy, outperforming signature-based antivirus tools.",Cybersecurity
+This paper proposes a fuzzing framework guided by reinforcement learning that generates adversarial inputs to discover vulnerabilities in binary programs.,Cybersecurity
+We introduce a federated anomaly detection protocol for industrial control systems that preserves confidentiality while detecting coordinated multi-site attacks.,Cybersecurity
+A graph-based approach models network lateral movement patterns to detect advanced persistent threats before data exfiltration occurs.,Cybersecurity
+We study adversarial machine learning attacks on autonomous vehicle perception and propose certified defences using randomised smoothing.,Cybersecurity
+A privacy-preserving authentication protocol using zero-knowledge proofs is designed for mobile edge computing with constrained devices.,Cybersecurity
+We propose a honeypot orchestration system powered by reinforcement learning that dynamically adapts deception strategies based on attacker behaviour.,Cybersecurity
+Phishing URL detection is improved using a character-level convolutional neural network trained on URL syntax features without accessing page content.,Cybersecurity
+"We present a vulnerability prediction model trained on code commits and bug reports, prioritising security patches in large open-source codebases.",Cybersecurity
+"A side-channel attack on deep learning accelerators recovers model weights through power trace analysis, demonstrating intellectual property risks.",Cybersecurity
+We introduce a secure multi-party computation protocol for collaborative threat intelligence sharing that prevents information leakage between organisations.,Cybersecurity
+Ransomware behaviour is modelled as a sequence of file system events and classified with a stacked LSTM achieving 99.2 percent detection accuracy.,Cybersecurity
+We design a post-quantum key encapsulation mechanism based on lattice problems suitable for constrained IoT hardware with 2 KB RAM.,Cybersecurity
+A blockchain-based audit trail system ensures tamper-evidence and regulatory compliance for cloud data provenance without centralised trust.,Cybersecurity
+We present a network traffic analysis framework that fingerprints encrypted TLS flows using statistical flow features without decryption.,Cybersecurity
+A memory forensics tool reconstructs process injection artefacts from RAM dumps to attribute attacks to known threat actor toolkits.,Cybersecurity
+We introduce a hardware-assisted control flow integrity mechanism that detects ROP gadget chains at runtime with under 2 percent overhead.,Cybersecurity
+Domain generation algorithm detection is improved using a hybrid character-level and semantic model trained on passive DNS telemetry.,Cybersecurity
+We propose a moving target defence strategy for web applications that dynamically randomises API endpoints to disrupt automated scanning.,Cybersecurity
+A machine learning classifier distinguishes benign scripting from malicious PowerShell execution by modelling abstract syntax tree features.,Cybersecurity
+We present a deception-based active defence that plants synthetic credentials in enterprise directories to detect credential stuffing attacks.,Cybersecurity
+Binary similarity detection across compiler optimisation levels is achieved using a siamese neural network on lifted intermediate representation.,Cybersecurity
+We introduce a continuous authentication system for mobile devices using gait and touch behavioural biometrics to detect session hijacking.,Cybersecurity
+A static taint analysis framework for Android applications tracks personal data flows to identify privacy policy violations automatically.,Cybersecurity
+We propose a cyber threat hunting methodology using unsupervised clustering of endpoint telemetry to surface anomalous process behaviour.,Cybersecurity
+Firmware security is improved via automated patch extraction and binary diffing to identify vulnerability fixes in IoT device updates.,Cybersecurity
+We present a privacy risk quantification framework that scores re-identification risk in synthetic datasets using linkage attack simulation.,Cybersecurity
+"A neural network model predicts exploit development timelines from vulnerability disclosure metadata, enabling prioritised patch deployment.",Cybersecurity
+We introduce a supply chain integrity verification protocol that detects tampered software artefacts using reproducible build attestations.,Cybersecurity
+"We propose a microservices orchestration framework that uses reinforcement learning to auto-scale containers based on predicted workloads, reducing cloud costs by 34 percent.",Systems / Software Engineering
+A static analysis tool detects concurrency bugs in Rust programs by modelling ownership transfers and lifetime violations as constraint satisfaction.,Systems / Software Engineering
+This paper introduces a just-in-time compilation strategy for dynamic languages that inlines polymorphic call sites based on runtime type feedback.,Systems / Software Engineering
+We present a distributed consensus algorithm tolerant to Byzantine faults with O(log n) communication complexity for internet-scale coordination.,Systems / Software Engineering
+"A formal verification method based on model checking is applied to smart contracts on Ethereum, detecting reentrancy and integer overflow vulnerabilities.",Systems / Software Engineering
+We introduce a serverless computing framework that minimises cold-start latency using predictive pre-warming based on access pattern forecasting.,Systems / Software Engineering
+"A compiler optimisation pass vectorises irregular data-parallel loops using polyhedral analysis, improving sparse matrix benchmark performance.",Systems / Software Engineering
+We design a real-time operating system scheduler combining earliest-deadline-first with energy harvesting awareness for batteryless embedded systems.,Systems / Software Engineering
+This work presents a program synthesis technique that infers loop invariants from input-output examples using enumerative search with constraint propagation.,Systems / Software Engineering
+"A software testing framework automatically generates regression test suites from production traffic logs, achieving 85 percent branch coverage.",Systems / Software Engineering
+"We propose a hardware-software co-design methodology for neural network inference accelerators that jointly optimises quantisation, pruning, and dataflow.",Systems / Software Engineering
+A memory-safe systems programming language extension supports safe foreign function interfaces to C libraries via automated wrapper generation.,Systems / Software Engineering
+We study tail latency in distributed databases under mixed workloads and propose a routing algorithm that reduces P99 latency by 60 percent.,Systems / Software Engineering
+A log analysis pipeline uses transformer embeddings to cluster operational logs and surface root causes of production incidents in under 30 seconds.,Systems / Software Engineering
+We present a CI/CD framework with built-in chaos engineering hooks that stress-tests microservice deployments before merging to production.,Systems / Software Engineering
+"A storage engine is proposed using learned index structures to replace B-trees, reducing range query latency by 45 percent on SSD hardware.",Systems / Software Engineering
+We introduce a task scheduling algorithm for heterogeneous compute clusters that minimises makespan using a graph neural network to estimate job runtimes.,Systems / Software Engineering
+A transactional memory system extends hardware TSX with software fallback to maintain serialisability under high contention workloads.,Systems / Software Engineering
+"We present a container image deduplication service that identifies shared layer content across registries, reducing storage costs by 52 percent.",Systems / Software Engineering
+A protocol for zero-downtime database schema migrations is designed and evaluated across PostgreSQL and MySQL at 10 million rows per second.,Systems / Software Engineering
+We propose a live migration technique for virtual machines that achieves sub-100 ms downtime by prefetching dirty memory pages during pre-copy.,Systems / Software Engineering
+An automated performance regression detection system analyses continuous integration benchmark results using statistical change point detection.,Systems / Software Engineering
+We introduce a library for software transactional memory in Rust that leverages the ownership type system to eliminate data races at compile time.,Systems / Software Engineering
+A query optimiser for multi-tenant cloud databases uses reinforcement learning to select execution plans based on observed resource utilisation.,Systems / Software Engineering
+We present a build system that achieves incremental compilation of large C++ codebases by tracking fine-grained header dependency graphs.,Systems / Software Engineering
+A mesh networking protocol for IoT devices achieves reliable multi-hop routing under 30 percent packet loss using fountain codes and opportunistic forwarding.,Systems / Software Engineering
+We introduce a smart contract upgradeability pattern that preserves storage layout compatibility across protocol upgrades without proxy contract overhead.,Systems / Software Engineering
+A distributed tracing system correlates spans across polyglot microservices using baggage propagation and tail-based sampling to reduce overhead.,Systems / Software Engineering
+We propose a file system design for non-volatile memory that exploits byte-addressability to reduce journaling overhead by 80 percent.,Systems / Software Engineering
+An operating system kernel extension enables hardware-isolated enclaves for user-space applications without trusted execution environment hardware.,Systems / Software Engineering
